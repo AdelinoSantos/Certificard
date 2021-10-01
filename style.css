@@ -1,0 +1,196 @@
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-top: 40px;
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 20;
+}
+.tema button {
+  align-self: flex-end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  /*altura  largura  */
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.social-links,
+.flex-center {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  margin: 5px;
+  transition: 1s;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+
+#twitter svg {
+  fill: #1da1f2;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 32px;
+  padding: 32px;
+}
+ul {
+  list-style-type: none;
+}
+.projetos-item a {
+  color: #00ff00;
+  text-decoration: none;
+}
+.ico {
+  max-height: 30px;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  margin-left: 36px;
+  margin-top: 35px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #101010;
+  border-radius: 100px;
+  color: #00ff00;
+}
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.projetos-item {
+  list-style-type: none;
+  margin-left: 36px;
+  margin-top: 35px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/* a = âncora (link)  */
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient (236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+.dark .container {
+  background: #333439;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
